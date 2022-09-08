@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <Button
+            android:id="@+id/hello"
+            android:onClick="buttonTapped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="Hello" />
+
+        <Button
+            android:id="@+id/howareyou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="5dp"
+            android:onClick="buttonTapped"
+            android:text="How Are You?" />
+
+        <Button
+            android:id="@+id/goodevening"
+            android:onClick="buttonTapped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="Good Evening" />
+        <Button
+            android:id="@+id/please"
+            android:onClick="buttonTapped"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="Please" />
+        <Button
+            android:id="@+id/mynameis"
+            android:onClick="buttonTapped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="My Name is....." />
+
+        <Button
+            android:id="@+id/doyouspeakenglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="5dp"
+            android:onClick="buttonTapped"
+            android:text="Do You Speak &#10;English?" />
+
+        <Button
+            android:id="@+id/welcome"
+            android:onClick="buttonTapped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="Wellcome" />
+
+        <Button
+            android:id="@+id/ilivein"
+            android:layout_width="8dp"
+            android:layout_height="35dp"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="5dp"
+            android:onClick="buttonTapped"
+            android:text="I Live in" />
+
+    </GridLayout>
+
+</RelativeLayout>
